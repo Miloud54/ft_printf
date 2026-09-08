@@ -15,32 +15,6 @@ make fclean   # removes object files + the library
 make re       # fclean + make
 ```
 
-## 🚀 Usage
-
-Include the header in your source file:
-
-```c
-#include "ft_printf.h"
-```
-
-Compile while linking the library:
-
-```bash
-cc -Wall -Wextra -Werror main.c -L. -lftprintf -o main
-```
-
-Example:
-
-```c
-#include "ft_printf.h"
-
-int main(void)
-{
-	ft_printf("Hello, %s! You have %d new messages.\n", "world", 5);
-	return (0);
-}
-```
-
 ## 📚 Supported conversions
 
 | Specifier | Description |
